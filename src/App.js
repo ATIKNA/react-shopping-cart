@@ -12,7 +12,7 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      products: data.products,
+      
       cartItems: localStorage.getItem("cartItems")
         ? JSON.parse(localStorage.getItem("cartItems"))
         : [],
